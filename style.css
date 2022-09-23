@@ -231,7 +231,9 @@ body {
     }
 
     .header {
-        transform: translateX(-50%);
+        /* display: none; */
+        transform: translateX(-100%);
+        transition: .3s;
     }
 
     .slider-content1 {
@@ -265,7 +267,14 @@ body {
     }
 
     .icon-mobile>i {
-        font-size: 50px;
-        padding: 10px;
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        bottom: 0%;
     }
 }
